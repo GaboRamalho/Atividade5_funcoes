@@ -7,7 +7,7 @@
 #inicio da função
 def recebearg(x): 
     if type(x) == int:
-        print(abs(x))
+        print(abs(x)) #abs() é para colocar o número em módulo
     
     elif type(x) == float:
         print(abs(x))
@@ -15,4 +15,4 @@ def recebearg(x):
     else:
         print("Valor informado não é um número.")
 
-recebearg("Abigail")
+recebearg("Abigail") #fim

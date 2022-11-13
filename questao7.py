@@ -21,4 +21,4 @@ def iteranum():
         if ( i % 5 != 0):
             print(f"Os números NÃO divisiveis por 5 são: {i}") 
 
-iteranum()
+iteranum()#fim

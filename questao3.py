@@ -13,4 +13,4 @@ def potencia():
         resultado = resultado * base
     print(f"{base} elevado a {expoente} é igual a: {resultado}")
 
-potencia()
+potencia()#fim

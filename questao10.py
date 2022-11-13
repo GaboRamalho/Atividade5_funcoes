@@ -4,3 +4,10 @@
 # função a média de salário da população, a média do número de filhos, o
 # maior salário e o percentual de pessoas com salário até 3 salários mínimos
 # (~R$ 1.200).
+
+
+
+#inicio da função
+def recebedados():
+    for c in range():
+

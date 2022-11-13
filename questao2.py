@@ -9,13 +9,13 @@ def recebedados():
     nome_funcionario = input("Qual seu nome? ")
     salario_funcionario = (input("Qual o seu salário em reais? R$"))
 
-    if salario_funcionario == '':
+    if salario_funcionario == '': #condição para caso usuário não digite o salário
         salario_funcionario = 9000 
 
-    return nome_funcionario, salario_funcionario
+    return nome_funcionario, salario_funcionario 
 
-def apresentadados():
-    nome_funcionario, salario_funcionario = recebedados()
+def apresentadados(): 
+    nome_funcionario, salario_funcionario = recebedados() #chamando variáveis da 1ª função
     print(f"Olá {nome_funcionario}, seu salário é igual a: R${salario_funcionario:.2f}")
 
-apresentadados()
+apresentadados()#fim
