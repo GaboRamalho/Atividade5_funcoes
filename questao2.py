@@ -6,8 +6,11 @@
 #função para receber os dados do usuário
 def recebedados():
     print("Bem vindo ao nosso app!")
-    nome_funcionario = input("Qual seu nome?")
-    salario_funcionario = float(input("Qual o seu salário em reais? R$"))
+    nome_funcionario = input("Qual seu nome? ")
+    salario_funcionario = (input("Qual o seu salário em reais? R$"))
+
+    if salario_funcionario == '':
+        salario_funcionario = 9000 
 
     return nome_funcionario, salario_funcionario
 
