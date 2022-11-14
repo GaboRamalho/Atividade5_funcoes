@@ -20,4 +20,4 @@ def divtres():
     else:
         print(f"{numero_div} não é divisível por três")
 
-print(divtres())#fim
+print(divtres()) #fim

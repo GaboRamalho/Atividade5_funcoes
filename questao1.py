@@ -9,4 +9,4 @@ def nlinhas(n):
         print(str(i) * i)
 
 n = int(input('Insina um número inteiro e eu imprimirei a mesma quantidade de linha e sequência: '))
-nlinhas(n)#fim
+nlinhas(n) #fim

@@ -18,4 +18,4 @@ def apresentadados():
     nome_funcionario, salario_funcionario = recebedados() #chamando variáveis da 1ª função
     print(f"Olá {nome_funcionario}, seu salário é igual a: R${salario_funcionario:.2f}")
 
-apresentadados()#fim
+apresentadados() #fim

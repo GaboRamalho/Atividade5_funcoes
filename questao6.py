@@ -19,4 +19,4 @@ def calculo():
     else:
         print(f"O resultado do produto entre {numero1} e {numero2} é igual: {mult}")
 
-calculo()#fim
+calculo() #fim

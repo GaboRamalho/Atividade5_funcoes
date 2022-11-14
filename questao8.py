@@ -17,4 +17,4 @@ def calcula_salario():
         total_trabalhado = horas_trabalhadas * taxa_hora
         print(f"O seu total a receber é R$ {total_trabalhado}")
 
-calcula_salario()#fim
+calcula_salario() #fim

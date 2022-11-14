@@ -34,24 +34,24 @@ def getIntput(media_salario, media_filhos):
       else: 
          print("Numero invalido")
 
-def getMediaSalario(media_salario):
+def getMediaSalario(media_salario): # função para a média salarial 
     num = sum(media_salario)
     total = len(media_salario)
     
     return num/total
 
-def getMediaFilhos(media_filhos):
+def getMediaFilhos(media_filhos):# função para a média de filhos
     num = sum(media_filhos)
     total = len(media_filhos)
     
     return num/total
 
-def getMaxSalario(media_salario):
+def getMaxSalario(media_salario): # função para a o maior salário
     total = max(media_salario)
 
     return total
 
-def getPercentual(media_salario, media_filhos):
+def getPercentual(media_salario, media_filhos): # função para a porcentagem de quem recebe menos que 3600
     salario_minimo = (media_salario)
     quantidadePessoas = len(media_filhos)
 
@@ -61,4 +61,4 @@ def getPercentual(media_salario, media_filhos):
 
     return porcentagem
 
-main()
+main() #fim

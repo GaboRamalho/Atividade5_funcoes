@@ -11,4 +11,4 @@ def impar_par():
 
     print(f"{numero} é número par? {resultado}") 
 
-impar_par()#fim
+impar_par() #fim
